@@ -16,9 +16,9 @@ const Countries = () => {
 
     return (
         <div>
-            <h2>Visiting Every Country Of The World! Yay...</h2>
-            <h3>Available Countries: {countries.length}</h3>
-            <div className='countries-container'>
+            <h2 className='mt-5'>Visiting Every Country Of The World! Yay...</h2>
+            <h3 className='mt-4 mb-5'>Available Countries: {countries.length}</h3>
+            <div className='container countries-container'>
                 {
                     // countries.map(country => console.log(country))
                 }
