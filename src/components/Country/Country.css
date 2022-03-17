@@ -1,0 +1,13 @@
+.country{
+    box-shadow: .4rem .4rem 1rem #ccc,
+    -.4rem -.4rem 1rem #fff;
+    background-color: #e6e6e6;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+  }
+  
+  .country img{
+    width: 280px;
+    border-radius: 15px;
+  }

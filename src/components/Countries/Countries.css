@@ -1,0 +1,13 @@
+body{
+    background-color: #e6e6e6;
+}
+.countries-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+@media screen and (max-width: 490px){
+    .countries-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

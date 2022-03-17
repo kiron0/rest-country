@@ -1,0 +1,13 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.back-to-top{
+    position: relative;
+}
